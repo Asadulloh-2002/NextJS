@@ -29,7 +29,7 @@ const SideBar = () => {
 
     return (
         <>
-            <Box width={'30%'}>
+            <Box width={{ xs: '100%', md: '30%' }}>
                 <Box position={'sticky'} top={'9vh'} sx={{transition: 'all .3s ease'}}>
                     <Box border={'1px solid gray'} padding={'20px'} borderRadius={'8px'}>
                         <Typography variant='h5'>Category</Typography>
